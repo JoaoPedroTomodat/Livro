@@ -16,10 +16,10 @@
 
     $l[0] = new Pessoa ("João", "17", "Masculino");
 
-    $p[0] = new Livro ("Assim falou Zaratustra", "Niti", 300, $l[0]);
+    $p[0] = new Livro ("Assim falou Zaratustra", "Nietzsche", 300, $l[0]);
 
 
-    $p[0]->folhear(303);
+    $p[0]->folhear(30);
     $p[0]->avancarPag();
     $p[0]->detalhes();
 
